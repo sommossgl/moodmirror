@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual env
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Face data — PII (do NOT commit)
+registered_faces/*/
+!registered_faces/.gitkeep
+
+# DeepFace cache
+*.pkl
+.deepface/
+
+# Model weights (regenerable)
+*.h5
+*.weights
+
+# Logs
+*.log
+emotion_log_*.csv
+
+# Env files
+.env
+.env.local

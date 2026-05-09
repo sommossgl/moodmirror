@@ -1,0 +1,2 @@
+# This file ensures the registered_faces/ folder exists in git.
+# Actual face images and .pkl caches are gitignored (PII).
