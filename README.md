@@ -1,8 +1,10 @@
-# 😊 Face & Emotion Detection
+# 🪞 MoodMirror
 
-> Real-time face recognition + emotion analytics — built with Streamlit + DeepFace
+> **กระจกที่อ่านใจคุณ** — Real-time face & emotion AI
 >
-> A hobby/learning project by **sommossgl** (Sommoss G.)
+> Look at the camera. See who's there. See how they feel.
+>
+> A hobby/learning project by **sommossgl** (Sommoss G.) · Built with Streamlit + DeepFace
 
 ---
 
@@ -33,8 +35,8 @@
 ### 1. Clone
 
 ```bash
-git clone https://github.com/sommossgl/face-detection.git
-cd face-detection
+git clone https://github.com/sommossgl/moodmirror.git
+cd moodmirror
 ```
 
 ### 2. Create virtual env + install deps
@@ -83,7 +85,7 @@ App opens at `http://localhost:8501`
 ## 📁 Project Structure
 
 ```
-face-detection/
+moodmirror/
 ├── app.py                    # Main Streamlit app
 ├── registered_faces/         # User face images (gitignored — PII)
 │   └── <name>/
